@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 @Getter(value = AccessLevel.PUBLIC)
 @Setter(value = AccessLevel.PUBLIC)
 public class Message {
-
+    //test
     @Value("${myname}")
     private String name;
 
